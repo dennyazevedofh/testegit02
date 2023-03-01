@@ -1,0 +1,66 @@
+h1 {
+    color: red;
+    background-color: yellow;
+}
+
+/*
+	Configurações Gerais
+*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+
+:root {
+	--decoPrinc: #b28756;
+	--bgColor: #000;
+	--fgColor: #fff;
+	--destaMenu: #ccc;
+	--descColorLight: #ccc;
+	--bgDefLight: #f7f7f7;
+	--titColorLight: #000;
+	--bgDefDark: #000;
+	--titColorDark: #fff;
+	--textService: #999;
+}
+
+aside {
+    background-color:#9ccbe6;
+    width:0vw;
+    font-family:'Hepta Slab', Helvetica, Arial;
+    transition:all ease .2s;
+    overflow-x:hidden;
+}
+
+aside.show {
+    width:30vw;
+}
+
+.cart--area {
+    padding:20px;
+}
+
+main {
+    flex:1;
+    padding:20px;
+}
+
+h1 {
+    font-family:'Hepta Slab', Helvetica, Arial;
+}
+
+.models-area {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.models-item {
+    text-align: center;
+    max-width:250px;
+    font-family:'Hepta Slab', Helvetica, Arial;
+    margin:0 auto 50px auto;
+}
+
+.models-item a {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    text-decoration: none;
+}
